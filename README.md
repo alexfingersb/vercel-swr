@@ -81,6 +81,12 @@ yarn add json-server
 yarn add swr
 ```
 
+#### Add React Router Dom
+
+```
+yarn add react-router-dom
+```
+
 [yarn]: https://yarnpkg.com
 [reactjs]: https://reactjs.org
 [styled components]: https://github.com/typicode/json-server
