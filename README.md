@@ -1,8 +1,32 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Vercel SWR
+
+This is a simple project for study proposals. It was developed by [Rocketseat](https://rocketseat.com.br) and you can watch the tutorial [Consumindo APIs no React com SWR](https://www.youtube.com/watch?v=Pbs1VIwPoRA&feature=em-uploademail) on the YouTube channel.
+
+## Getting Started
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+
+### Tech
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and uses open source projects to work properly:
+
+- [Yarn] - Yarn is a package manager that doubles down as project manager.
+- [ReactJS] - A JavaScript library for building user interfaces.
+- [Styled Components] - Use the best bits of ES6 and CSS to style your apps without stress.
+- [JSON Server] - Get a full fake REST API with zero coding in less than 30 seconds (seriously)
+- [Axios] - Promise based HTTP client for the browser and node.js
+- [SWR] - Is a React Hooks library for remote data fetching. SWR first returns the data from cache (stale), then sends the fetch request (revalidate), and finally comes with the up-to-date data again.
+- [React Router Dom] - Is a collection of navigational components that compose declaratively with your application.
+- [TypeScript] - Is a typed superset of JavaScript that compiles to plain JavaScript.
 
 ## Available Scripts
 
 In the project directory, you can run:
+
+### `yarn server`
+
+Runs the REST API server. <br />
+Open [http://localhost:3333/users](http://localhost:3333/users) to view the users in json format.
 
 ### `yarn start`
 
@@ -11,11 +35,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `yarn build`
 
@@ -27,18 +46,46 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
+### Configuring your project
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- Use YARN to initialize your project and create package.json to store project dependencies.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+#### Create the project and into them
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```
+yarn create react-app vercel-swr --template typescript
+cd vercel-swr
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+#### Add Styled Component
 
-## Learn More
+```
+yarn add styled-components
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+#### Add Axios
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```
+yarn add axios
+```
+
+#### Add JSON Server
+
+```
+yarn add json-server
+```
+
+#### Add SWR
+
+```
+yarn add swr
+```
+
+[yarn]: https://yarnpkg.com
+[reactjs]: https://reactjs.org
+[styled components]: https://github.com/typicode/json-server
+[json server]: https://github.com/typicode/json-server
+[axios]: https://github.com/axios/axios
+[swr]: https://github.com/vercel/swr
+[react router dom]: https://reactrouter.com
+[typescript]: https://www.typescriptlang.org

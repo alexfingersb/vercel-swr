@@ -1,0 +1,27 @@
+{
+  "users": [
+    {
+      "name": "Luke Skywalker",
+      "id": 1
+    },
+    {
+      "name": "Darth Vader",
+      "id": 2
+    },
+    {
+      "name": "Master Yoda",
+      "id": 3
+    },
+    {
+      "name": "Princess Leia",
+      "id": 4
+    },
+    {
+      "name": "Han Solo",
+      "id": 5
+    }
+  ],
+  "about": {
+    "title": "Vercel SWR API - For more visit the website https://swr.vercel.app"
+  }
+}
