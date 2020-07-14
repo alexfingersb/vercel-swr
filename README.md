@@ -1,4 +1,4 @@
-# Vercel SWR
+# :page_with_curl: Vercel SWR
 
 This is a simple project for study proposals. It was developed by [Rocketseat](https://rocketseat.com.br) and you can watch the tutorial [Consumindo APIs no React com SWR](https://www.youtube.com/watch?v=Pbs1VIwPoRA&feature=em-uploademail) on the YouTube channel.
 
