@@ -6,6 +6,9 @@ This is a simple project for study proposals. It was developed by [Rocketseat](h
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
+### Team Members
+(public/index.html)
+
 ### Tech
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and uses open source projects to work properly:
