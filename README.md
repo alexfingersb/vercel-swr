@@ -7,7 +7,7 @@ This is a simple project for study proposals. It was developed by [Rocketseat](h
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
 ### Team Members
-(public/index.html)
+[!members](public/index.html)
 
 ### Tech
 
